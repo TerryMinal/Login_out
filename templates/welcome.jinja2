@@ -13,13 +13,12 @@
 </head>
 <body class="center">
 {{ br(8) }}
-<h1>Welcome {{ username }} (your username)!</h1>
-<h1>Your password is {{ password }}!</h1>
-<h2>You used the HTTP {{ method|upper }} method!</h2>
+<h1>Welcome {{ username }}!</h1>
 {{ br(2) }}
 <!--suppress HtmlUnknownTarget -->
-<form action="/login" class="center">
-    <input type="submit" value="Back">
+<form action="/logout" class="center">
+    <input type="submit" value="Logout">
 </form>
+
 </body>
 </html>

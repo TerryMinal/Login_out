@@ -16,5 +16,10 @@
     <br>
     <input type="submit">
 </form>
+
+{% if failed %}
+    You entered the incorrect {{ failed }}.
+{% endif %}
+
 </body>
 </html>
